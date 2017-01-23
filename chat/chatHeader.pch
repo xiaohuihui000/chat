@@ -1,0 +1,24 @@
+
+//
+//  chatHeader.pch
+//  chat
+//
+//  Created by chenguanghui on 17/1/6.
+//  Copyright © 2017年 chenguanghui. All rights reserved.
+//
+
+#ifndef chatHeader_pch
+#define chatHeader_pch
+
+#import "Masonry/Masonry.h"
+#import "ChatModel.h"
+#import <sqlite3.h>
+#import "FMDB.h"
+#import "UIImageView+WebCache.h"
+#import "WHMD5.h"
+#import "AFNetworking.h"
+
+#define SCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* chatHeader_pch */

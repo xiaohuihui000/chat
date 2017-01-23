@@ -1,0 +1,26 @@
+{
+  "name": "sioclient",
+  "version": "1.0.0",
+  "summary": "sioclient ios librarys. support : i386,x86_64,armv7,arm64",
+  "homepage": "http://code.dev.soooner.com:18000/wuxiande/sioclient",
+  "license": "MIT",
+  "requires_arc": true,
+  "authors": {
+    "wuxiande": "xd.wu@msn.com"
+  },
+  "source": {
+    "git": "http://code.dev.soooner.com:18000/wuxiande/sioclient.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "header_mappings_dir": "include",
+  "source_files": "include/*/*.h",
+  "public_header_files": "include/*/*.h",
+  "vendored_libraries": "lib/*.a",
+  "libraries": [
+    "sioclient",
+    "z"
+  ]
+}

@@ -1,0 +1,6 @@
+framework module SooonerSocketPP {
+  umbrella header "SooonerSocketPP.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - sioclient (1.0.0)
+
+DEPENDENCIES:
+  - FMDB
+  - sioclient (from `http://code.dev.soooner.com:18000/wuxiande/sioclient.git`)
+
+EXTERNAL SOURCES:
+  sioclient:
+    :git: http://code.dev.soooner.com:18000/wuxiande/sioclient.git
+
+CHECKOUT OPTIONS:
+  sioclient:
+    :commit: f40b7391006a086ff136b41c98821155fe9c3905
+    :git: http://code.dev.soooner.com:18000/wuxiande/sioclient.git
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  sioclient: 9a67eca848409edef9978c87640ae9eaa704378e
+
+PODFILE CHECKSUM: 25b4b522e2def02c70d5360e35c8f36604a1c3d6
+
+COCOAPODS: 1.1.1
